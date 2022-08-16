@@ -77,7 +77,7 @@ int birthday(std::string date) {
 }
 	
 int main() {
-    std::vector<std::string> file = read("eo");
+    std::vector<std::string> file = read("birthdays");
 	std::vector<std::string> e = split_vector(file);
 	std::vector<std::pair<std::string,int>> info;
     for (int i = 0; i < e.size(); i++) {
